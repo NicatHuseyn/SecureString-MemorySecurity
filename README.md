@@ -119,23 +119,23 @@
       SecureString Class-ı İlə Qorununan Dataların Runtime-da Əldə Edilməsi
     </h1>
 
-  <ul>
-      <ol>
+  <ol>
+      <li>
         <div style="width: 500px">
           <img src="https://github.com/user-attachments/assets/5f89ae95-1559-46cb-8d2c-0f02422e21cd" style="width: 500px" alt="" />
         </div>
-      </ol>
-      <ol>
+      </li>
+      <li>
         <div style="width: 500px">
           <img src="https://github.com/user-attachments/assets/f9f7b960-38ef-49a0-8a77-8ef5311b0bd5" style="width: 500px" alt="" />
         </div>
-      </ol>
-      <ol>
+      </li>
+      <li>
         <div style="width: 500px">
           <img src="https://github.com/user-attachments/assets/1c81104d-a810-4c89-9cf6-bf12735340e8" style="width: 500px" alt="" />
         </div>
-      </ol>
-    </ul>
+      </li>
+    </ol>
 
   <br />
     <br />
