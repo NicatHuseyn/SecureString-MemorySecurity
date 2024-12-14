@@ -1,5 +1,5 @@
- <body>
-    <h1 style="text-align: center">
+
+   <h1 style="text-align: center">
       SecureString Class-ı İlə Memory Təhlükəsizliyi
     </h1>
     <h3><strong>Memory Güvənliyini təmin etmək nədir?</strong></h3>
