@@ -9,6 +9,7 @@
       kart məlumatları ola bilər, həmçinin proqrama aid, connection, port yaxud
       hər hansı bir dövlət sirri ola bilər.
       <br />
+       <br />
       Çox developer normal olaraq bu dataları string olaraq tutacaq və istifadə
       edəcək. Bu kimi string ifadələri bir dəyişgənlərlə memory-də tutduğumuz
       üçün burada bir güvənlik təhlükəsi vardır.
