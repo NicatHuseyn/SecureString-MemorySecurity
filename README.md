@@ -13,32 +13,39 @@
       Çox developer normal olaraq bu dataları string olaraq tutacaq və istifadə
       edəcək. Bu kimi string ifadələri bir dəyişgənlərlə memory-də tutduğumuz
       üçün burada bir güvənlik təhlükəsi vardır.
-      <br />
+       <br />
+       <br />
       <strong
         >Bəs bu datalar istifadə ediləndə kompüterin harasında
         saxlanılacaq?</strong
       >
-      <br />
+        <br />
+       <br />
       Sözüz ki, dəyişgən istifadə edəcəyimiz üçün bu datalar kompüterin
       memory-sində saxlanılacaq.
-      <br />
+       <br />
+       <br />
       Texniki olaraq proqramda istifadə olunan dəyişgənlər memory-də
       saxlanılacağı üçün, 2-ci və 3-cü şəxslərin memory-ə girib önəmli dataları
       görmə ehtumalı vardır. Uzun sözün qısası memory-də saxlanılan datalarda
       bir güvənlik problemi ehtimalı vardır.
-      <br />
+        <br />
+       <br />
       Görüldüyü kimi vacib dataların üzərində əməliyyatlar aparan zaman güvənlik
       probleminə qarşı tədbir almağımız və bu dəyişgənləri güvənli bir halda
       şifrələyərək qorumalıyıq. Əks halda bir güvənlik problemi ola bilər.
-      <br />
+       <br />
+       <br />
       İndi biz özümüz bu önəmli dataları maual olaraq şifrələməyi fikiləşə
       bilərik. Amma bu işə yaramayacaq. Çünki biz özümüz string bir datanı
       manipuliyasiay etmək istəyə bilərik, amma string ifadələrin memory
       strukturundakı funksionallığına görə.
-      <br />
+       <br />
+       <br />
       Bildiyimiz kimi string ifadələrin üzərində edilən dəyişikliklər, onun
       clone-u üzərində olur, birbaşa datanın üzərində olmur.
-      <br />
+     <br />
+       <br />
       Bilirik ki, string ifadələr normalda immutable strukturlardır. Yəni string
       bir ifadədə edilən hər hansı bir dəyişiklik, bir əməliyyat (əlavə etmə,
       çıxarma, dəyişdirmə) birbaşa dəyişgənin yaddaşdakı fiziki strukturuna
@@ -46,7 +53,8 @@
       üstündə həyata keçiriləcək. Uzun sözün qısası, bu əməliyyat nəticəsində
       memory-də dəyişənin köhnə dəyərinin olduğu kimi yaddaşdaki əlaqəli
       adressdə qaldığını deyə bilərik.
-      <br />
+       <br />
+       <br />
       Belə bir halda vacib dataların tutulduğu dəyişgənin üstündə nə ediriksə
       edək orginal hallarının bir üsulla saxlanılacağını və bunlara hər zaman
       daxil olma ehtimalını deyə bilərik. O zamana ki, SecureString
@@ -81,8 +89,6 @@
         yaratmadan, birbaşa yaddaşdakı fiziki dəyişənə təsirini göstərir.
       </strong>
     </p>
-    <br />
-    <br />
 
   <h3>Bu işlərə misal olaraq:</h3>
     <p>
@@ -95,10 +101,6 @@
       <img src="https://github.com/user-attachments/assets/9c5b8ee1-0deb-4b4b-9e90-a5139312ee87" style="width: 700px" alt="" />
     </div>
     <p>Görüldüyü kimi 3-cü overload-da SecureString olaraq verə bilirik.</p>
-
-  <br />
-    <br />
-
   <h3>Nümunələr:</h3>
     <br />
     <strong>Network API İstəkləri:</strong>
@@ -106,7 +108,6 @@
       Bəzi proqramlarda bir APİ istək atıqda username və password kimi datalar
       SecureString ilə şifrələnir.
     </p>
-    <br />
 
   <div style="width: 500px">
       <img src="https://github.com/user-attachments/assets/3fc8e3b9-159c-42f5-9f47-54c1fa09ff70" style="width: 500px" alt="" />
